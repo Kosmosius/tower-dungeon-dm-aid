@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Credits and source notice · The Crown</title>
+  <style>
+    :root { color-scheme: light dark; font: 16px/1.55 system-ui, sans-serif; }
+    body { margin: 0; background: #f5f1e8; color: #1b2927; }
+    main { box-sizing: border-box; max-width: 49rem; padding: 1.5rem 1.2rem 3rem; margin: auto; }
+    h1, h2 { line-height: 1.2; }
+    h1 { font-size: clamp(1.8rem, 6vw, 2.5rem); margin: .4rem 0 1rem; }
+    h2 { margin-top: 2rem; font-size: 1.2rem; }
+    a { color: #175c55; }
+    a:focus-visible { outline: 3px solid #b4771e; outline-offset: 3px; }
+    .eyebrow { letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; font-weight: 700; }
+    .note { border-left: .25rem solid #a47432; padding-left: .9rem; }
+    li { margin: .3rem 0; }
+    code { overflow-wrap: anywhere; }
+    details { margin-top: 1rem; }
+    summary { cursor: pointer; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #13211f; color: #e7e6df; }
+      a { color: #aad7ca; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Return to The Crown</a></p>
+  <p class="eyebrow">Offline credits · 19 October 2026 development shell</p>
+  <h1>Credits and source notice</h1>
+  <p><strong>The Crown</strong> adventure and <strong>GEWINN</strong> game were created by Marshall Alexander. This page identifies the sources and changes used by the current app. It remains available without a network connection after the shell is installed.</p>
+
+  <h2>The Crown</h2>
+  <p>The adventure source is the locked <strong>The Crown v1.1.1 Razor Edition</strong>: Book I, <em>World and Campaign</em>; Book II, <em>Areas</em>; Book III, <em>Ways</em>; and Book IV, <em>People, Monsters and Treasure</em>. The four Markdown masters and their print PDFs remain unchanged. The current app shell does not bundle the private adventure pack; a player supplies it locally.</p>
+  <p>Marshall Alexander authorized publication of Crown material they own in a future public app. The Crown narrative has its own rights status. The GEWINN license below is <strong>not</strong> a license for Crown prose, maps or application code.</p>
+  <details>
+    <summary>Locked Crown source identifiers</summary>
+    <ul>
+      <li>Book I Markdown SHA-256: <code>abaec3fb0ecc8124517ff2d69e1148968ad17610aff3a07a18258a075f324f1f</code></li>
+      <li>Book II Markdown SHA-256: <code>b81186677079dbcdc04092de7b0d5277d67df6654f732eaa36dd65600a7e1279</code></li>
+      <li>Book III Markdown SHA-256: <code>0e3fcb997a8f4ab5d81721f8f5c2993e9365fab70c8814a86020fdd38485b261</code></li>
+      <li>Book IV Markdown SHA-256: <code>258ab6614accf03dd5b1627ce61709aa6e46fa0101c91db409343926d8288b41</code></li>
+    </ul>
+  </details>
+
+  <h2>GEWINN license and source</h2>
+  <p><strong>GEWINN: Old School Renaissance Fantasy</strong>, Marshall Alexander, copyright 2024; Crown reference revision dated <strong>10 October 2026</strong>. Its supplied front matter states the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International license</a>. The GEWINN rule text and adapted GEWINN presentation in this app are available under that same license; the Crown narrative and application code have separate rights. License URL: <code>https://creativecommons.org/licenses/by-sa/4.0/</code>. The local source identifier is <code>GEWINN_20261010.txt</code>; a public canonical source URL has not yet been recorded.</p>
+  <p>The app follows the GEWINN migration manifest, migration changelog and canonical data for current rules, with later explicit designer decisions; v5 supplies only unsuperseded procedures, and v2.5 supplies voice, front matter and historical attribution. This is the project's source order, not a new edition of the GEWINN manuscript.</p>
+
+  <h2>Changes and Crown-specific rulings</h2>
+  <p>The app turns source procedures into choices, calculated outcomes and persistent local campaign state. It does not amend the locked Crown books or the general GEWINN migration bundle. The author set these Crown-app rules explicitly:</p>
+  <ul>
+    <li><strong>D15:</strong> all eight GEWINN wound tables in the 10 October 2026 text are the Crown app's table authority. Wound Value bands are 1–3 Minor, 4–6 Serious, 7–9 Grave, 10–15 Mortal and 16+ Catastrophic. A later same-type result adds to established lasting injury.</li>
+    <li>Grave Ability Loss is <strong>1d2</strong>; Mortal Ability Loss is <strong>1d4</strong>. Sacrifice's maximum Wound Value by levels 1–5 is <strong>3 / 6 / 9 / 15 / 16</strong>.</li>
+    <li>Crown clinical time uses the <strong>30-minute Turn</strong>.</li>
+  </ul>
+  <p class="note">The complete GEWINN-only public adventure bundle is still in development. This notice describes the present shell and source projection; it is not a claim that every encounter or keyed action is implemented.</p>
+
+  <h2>Historical acknowledgments</h2>
+  <p>GEWINN's v2.5 front matter credits <strong>cavegirlgames</strong> for inspiration from “Horrible Wounds” and <strong>Mothership</strong> for inspiration from its Stress system. These are historical acknowledgments. They do not imply sponsorship, endorsement or permission to reproduce those works' text or art.</p>
+  <p>The same front matter described GEWINN's historical Old-School Essentials fork origin. That statement records origin; it is not a compatibility claim for this app. The planned public adventure uses GEWINN-only rules and excludes alternate OSE rules text and branding. The present shell bundles no adventure rules pack.</p>
+  <details>
+    <summary>Historical illustrations credited in the source book</summary>
+    <p>The GEWINN source lists the following art credits. These illustrations are not included in this app shell; the list records the book's original acknowledgment and does not claim an image license.</p>
+    <ul>
+      <li><em>Predica del arte del bene morire</em> — Girolamo Savonarola, 1502.</li>
+      <li><em>Der Weisskunig 109 Landsknecht Battle</em> — Hans Burgkmair, 1516.</li>
+      <li><em>Danse Macabre</em> (16, 19, 27, 31, 42) — Hans Holbein, 1493.</li>
+      <li><em>Wound Man</em> from Hans von Gersdorff's <em>Feldtbuch der Wundartzney</em>, 1519.</li>
+      <li>“Arkebusier, Nbg.1 kl” — listed without a creator in the source.</li>
+    </ul>
+  </details>
+
+  <h2>Software</h2>
+  <p>Application code and its software dependencies have separate licensing from the Crown narrative and GEWINN text. This page does not grant an open-source license for the application code. Read the bundled <a href="./THIRD_PARTY_NOTICES.txt">software licenses and notices</a> for React, Dexie, DOMPurify, Marked and their included runtime dependencies.</p>
+</main>
+</body>
+</html>
