@@ -1,12 +1,14 @@
 {
   "files": [
     ".nojekyll",
+    "DOWNLOAD_README.txt",
     "THIRD_PARTY_NOTICES.txt",
     "apple-touch-icon.png",
     "asset-manifest.json",
+    "assets/index-By7xWW9q.js",
     "assets/index-Ddq3kus9.css",
-    "assets/index-ls5VwN01.js",
     "credits.html",
+    "default.crownpack.json",
     "icon-192.png",
     "icon-512.png",
     "icon-maskable-512.png",
